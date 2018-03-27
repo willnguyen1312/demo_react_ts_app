@@ -1,4 +1,7 @@
 {
   "tslint.autoFixOnSave": true,
-  "editor.formatOnSave": false
+  "editor.formatOnSave": false,
+  "cSpell.words": [
+    "postbuild"
+  ]
 }

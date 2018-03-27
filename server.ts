@@ -18,7 +18,7 @@ const apiRoute = express.Router();
 
 apiRoute.get("/", (req, res) => {
   res.json({
-    back: "Yeah One"
+    back: "Yeah"
   });
 });
 

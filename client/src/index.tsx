@@ -6,4 +6,8 @@ import './index.css';
 
 ReactDOM.render(<App />, document.getElementById('root') as HTMLElement);
 
+if (module.hot) {
+    module.hot.accept();
+}
+
 registerServiceWorker();
